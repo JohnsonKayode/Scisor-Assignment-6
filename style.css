@@ -13,6 +13,9 @@
 
 body {
     height: 100vh;
+    max-width: 1440px;
+    display: grid;
+    justify-content: center;
 }
 
 img {
@@ -22,20 +25,19 @@ img {
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
 ul, ol {
     list-style: none;
 }
 
-button {
-    background: none;
-    border: none;
-    cursor: pointer;
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    /* place-items: center; */
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+.nav-text{
+    display: flex;
+    flex: 1;
 }
