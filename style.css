@@ -281,3 +281,25 @@ ul, ol {
 .rightpart-boxes p{
     line-height: 2;
 }
+
+.section3{
+    display: grid;
+    place-self: center;
+    place-content: center;
+}
+
+.section3-toptext{
+    /* background-color: red; */
+    text-align: center;
+    width: 576px;
+}
+
+.section3-toptext h3{
+    font-size: 2.2rem;
+    padding: 20px;
+}
+
+.section3-middle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
